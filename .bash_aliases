@@ -124,10 +124,8 @@ function prompt () {
 #fi
 
 # host-specific
-#if [[ $HOSTNAME = 'unicorn' ]]; then
-#	alias unicorn="nyancat"
-#elif [[ $HOSTNAME = 'magic' ]]; then
-#	alias magic="nyancat"
+#if [[ $HOSTNAME = 'known' ]]; then
+#	alias up="uptime"
 #else
 #	echo "WARNING: Unrecognized machine: $HOSTNAME"
 #fi

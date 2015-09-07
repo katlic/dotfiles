@@ -117,8 +117,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#(date '+%D %T' | toilet -f term -F border --gay)
-#fortune | cowsay -f unipony-smaller | lolcat
-#figlet 'unicorn' | lolcat
-#figlet 'unicorn' -f small -c | lolcat
-#hostname -s | figlet -f small -c | lolcat
+# default greeting
+hostname -s | figlet -f small -c | lolcat
